@@ -145,7 +145,7 @@ window.alert=function(){};window.confirm=function(){return false;};window.prompt
      * real game in _vendor), cosmetic images, and duplicates of files the game already has
      * locally (both spongebob ports ship their own flambe.js). Left alone, each one is a request
      * that hangs until it times out; blocked, it fails instantly and the game gets on with it. */
-    var DEAD = /(bbplayer.net|cdn0.kizi.com|gmapi.gamemix.com|r3tq6l1/gmsdk|candystand.com|eags.us|iep-esy.ir|pegasgames.com|ngames365.github.io|yurivish.com|chicken.royalredeemerlutheranschool.org|marketjs-us/en/patch|cdn.jsdelivr.net/discount.json)/i;
+    var DEAD = /(bbplayer\.net|cdn0\.kizi\.com|gmapi\.gamemix\.com|r3tq6l1\/gmsdk|candystand\.com|eags\.us|iep-esy\.ir|pegasgames\.com|ngames365\.github\.io|yurivish\.com|chicken\.royalredeemerlutheranschool\.org|marketjs-us\/en\/patch|cdn\.jsdelivr\.net\/discount\.json)/i;
     var BAD = /(doubleclick|googlesyndication|googleadservices|googleads|adtrafficquality|2mdn\.net|imasdk\.googleapis|adsbygoogle|gamemonetize|fliplineads|cpmstar|ngads|adinplay|mochibot|mochiads|gamedistribution|azerioncircle|gamemonkey|scorecardresearch|moatads|amazon-adsystem|criteo|pubmatic|rubiconproject|adnxs|casalemedia|smartadserver|taboola|outbrain|google-analytics|googletagmanager|gameanalytics|cloud\.unity3d\.com|hotjar|mixpanel|clarity\.ms|enjoy4fun|gamebridge\.games|gamearter|poki\.io|famobi|softgames|yandex\.ru\/metrika|mc\.yandex)/i;
     function bad(u){ try { var t = String(u); return BAD.test(t) || DEAD.test(t); } catch(e){ return false; } }
     /* HOST-ABSOLUTE PATHS: "/version.json", "/audio/x.flac".
@@ -319,6 +319,185 @@ window.alert=function(){};window.confirm=function(){return false;};window.prompt
         warningBanner.style.display =
           warningBanner.children.length ? 'block' : 'none';
       }</script>
-<script>window.SURD_GAME = {"id":"hollow-knight-silksong","engine":"unity","base":"https://cdn.jsdelivr.net/gh/playsurd/surd-big-3@main/hollow-knight-silksong/","runtime":"https://cdn.jsdelivr.net/gh/playsurd/surd-runtime@main/v2e88679fd0/","files":{"data":{"path":"Build/w-pt.data.unityweb","bytes":15288449,"mime":"application/octet-stream"},"framework":{"path":"Build/w-pt.framework.js.unityweb","bytes":104039,"mime":"application/octet-stream"},"code":{"path":"Build/w-pt.wasm.unityweb","parts":[".sp0",".sp1"],"bytes":20192325,"mime":"application/octet-stream"}},"config":{"era":"modern","loaderJs":"Build/w-pt.loader.js","companyName":"EDUrocks Group, Truffled, GN-Math","productName":"Hollow Knight SilkSong","productVersion":"1.0"}};</script>
-<script crossorigin="anonymous" src="https://cdn.jsdelivr.net/gh/playsurd/surd-runtime@main/v2e88679fd0/runtime.js"></script>
+<script>window.SURD_GAME = {"id":"hollow-knight-silksong","engine":"unity","base":"https://cdn.jsdelivr.net/gh/playsurd/surd-big-3@main/hollow-knight-silksong/","runtime":"https://cdn.jsdelivr.net/gh/playsurd/surd-runtime@main/v41e88dd3b6/","files":{"data":{"path":"Build/w-pt.data.unityweb","bytes":15288449,"mime":"application/octet-stream"},"framework":{"path":"Build/w-pt.framework.js.unityweb","bytes":104039,"mime":"application/octet-stream"},"code":{"path":"Build/w-pt.wasm.unityweb","parts":[".sp0",".sp1"],"bytes":20192325,"mime":"application/octet-stream"}},"config":{"era":"modern","loaderJs":"Build/w-pt.loader.js","companyName":"EDUrocks Group, Truffled, GN-Math","productName":"Hollow Knight SilkSong","productVersion":"1.0"},"split":[{"p":"StreamingAssets/aa/WebGL/packed-animations-bosses_assets_all_c2495e0f7436f32cf8619f7dd95eebf0.bundle","u":["StreamingAssets/aa/WebGL/packed-animations-bosses_assets_all_c2495e0f7436f32cf8619f7dd95eebf0.bundle.sp0","StreamingAssets/aa/WebGL/packed-animations-bosses_assets_all_c2495e0f7436f32cf8619f7dd95eebf0.bundle.sp1"],"b":19498723,"m":"application/octet-stream","v":1,"pf":1},{"p":"StreamingAssets/aa/WebGL/packed-animations-scenery_assets_all_37027abf72cf6b3f86c0e2427a945d68.bundle","u":["StreamingAssets/aa/WebGL/packed-animations-scenery_assets_all_37027abf72cf6b3f86c0e2427a945d68.bundle.sp0","StreamingAssets/aa/WebGL/packed-animations-scenery_assets_all_37027abf72cf6b3f86c0e2427a945d68.bundle.sp1"],"b":20361138,"m":"application/octet-stream","v":1,"pf":1},{"p":"StreamingAssets/aa/WebGL/packed-audio-atmos_assets_all_b008c5fdb92b5563eaaf822ba425dd8d.bundle","u":["StreamingAssets/aa/WebGL/packed-audio-atmos_assets_all_b008c5fdb92b5563eaaf822ba425dd8d.bundle.sp0","StreamingAssets/aa/WebGL/packed-audio-atmos_assets_all_b008c5fdb92b5563eaaf822ba425dd8d.bundle.sp1"],"b":20381291,"m":"application/octet-stream","v":1,"pf":1},{"p":"StreamingAssets/aa/WebGL.zip","u":["StreamingAssets/aa/WebGL.zip.sp0","StreamingAssets/aa/WebGL.zip.sp1","StreamingAssets/aa/WebGL.zip.sp2","StreamingAssets/aa/WebGL.zip.sp3","StreamingAssets/aa/WebGL.zip.sp4","StreamingAssets/aa/WebGL.zip.sp5","StreamingAssets/aa/WebGL.zip.sp6","StreamingAssets/aa/WebGL.zip.sp7","StreamingAssets/aa/WebGL.zip.sp8","StreamingAssets/aa/WebGL.zip.sp9","StreamingAssets/aa/WebGL.zip.sp10","StreamingAssets/aa/WebGL.zip.sp11","StreamingAssets/aa/WebGL.zip.sp12","StreamingAssets/aa/WebGL.zip.sp13","StreamingAssets/aa/WebGL.zip.sp14","StreamingAssets/aa/WebGL.zip.sp15","StreamingAssets/aa/WebGL.zip.sp16","StreamingAssets/aa/WebGL.zip.sp17","StreamingAssets/aa/WebGL.zip.sp18","StreamingAssets/aa/WebGL.zip.sp19","StreamingAssets/aa/WebGL.zip.sp20","StreamingAssets/aa/WebGL.zip.sp21","StreamingAssets/aa/WebGL.zip.sp22","StreamingAssets/aa/WebGL.zip.sp23","StreamingAssets/aa/WebGL.zip.sp24","StreamingAssets/aa/WebGL.zip.sp25","StreamingAssets/aa/WebGL.zip.sp26","StreamingAssets/aa/WebGL.zip.sp27","StreamingAssets/aa/WebGL.zip.sp28","StreamingAssets/aa/WebGL.zip.sp29","StreamingAssets/aa/WebGL.zip.sp30","StreamingAssets/aa/WebGL.zip.sp31","StreamingAssets/aa/WebGL.zip.sp32","StreamingAssets/aa/WebGL.zip.sp33","StreamingAssets/aa/WebGL.zip.sp34","StreamingAssets/aa/WebGL.zip.sp35","StreamingAssets/aa/WebGL.zip.sp36","StreamingAssets/aa/WebGL.zip.sp37","StreamingAssets/aa/WebGL.zip.sp38","StreamingAssets/aa/WebGL.zip.sp39","StreamingAssets/aa/WebGL.zip.sp40","StreamingAssets/aa/WebGL.zip.sp41","StreamingAssets/aa/WebGL.zip.sp42","StreamingAssets/aa/WebGL.zip.sp43","StreamingAssets/aa/WebGL.zip.sp44","StreamingAssets/aa/WebGL.zip.sp45","StreamingAssets/aa/WebGL.zip.sp46","StreamingAssets/aa/WebGL.zip.sp47","StreamingAssets/aa/WebGL.zip.sp48","StreamingAssets/aa/WebGL.zip.sp49","StreamingAssets/aa/WebGL.zip.sp50","StreamingAssets/aa/WebGL.zip.sp51","StreamingAssets/aa/WebGL.zip.sp52","StreamingAssets/aa/WebGL.zip.sp53","StreamingAssets/aa/WebGL.zip.sp54","StreamingAssets/aa/WebGL.zip.sp55","StreamingAssets/aa/WebGL.zip.sp56","StreamingAssets/aa/WebGL.zip.sp57","StreamingAssets/aa/WebGL.zip.sp58","StreamingAssets/aa/WebGL.zip.sp59","StreamingAssets/aa/WebGL.zip.sp60","StreamingAssets/aa/WebGL.zip.sp61","StreamingAssets/aa/WebGL.zip.sp62","StreamingAssets/aa/WebGL.zip.sp63","StreamingAssets/aa/WebGL.zip.sp64","StreamingAssets/aa/WebGL.zip.sp65","StreamingAssets/aa/WebGL.zip.sp66","StreamingAssets/aa/WebGL.zip.sp67","StreamingAssets/aa/WebGL.zip.sp68","StreamingAssets/aa/WebGL.zip.sp69","StreamingAssets/aa/WebGL.zip.sp70","StreamingAssets/aa/WebGL.zip.sp71","StreamingAssets/aa/WebGL.zip.sp72","StreamingAssets/aa/WebGL.zip.sp73","StreamingAssets/aa/WebGL.zip.sp74","StreamingAssets/aa/WebGL.zip.sp75","StreamingAssets/aa/WebGL.zip.sp76","StreamingAssets/aa/WebGL.zip.sp77","StreamingAssets/aa/WebGL.zip.sp78","StreamingAssets/aa/WebGL.zip.sp79","StreamingAssets/aa/WebGL.zip.sp80","StreamingAssets/aa/WebGL.zip.sp81","StreamingAssets/aa/WebGL.zip.sp82","StreamingAssets/aa/WebGL.zip.sp83","StreamingAssets/aa/WebGL.zip.sp84","StreamingAssets/aa/WebGL.zip.sp85","StreamingAssets/aa/WebGL.zip.sp86","StreamingAssets/aa/WebGL.zip.sp87","StreamingAssets/aa/WebGL.zip.sp88","StreamingAssets/aa/WebGL.zip.sp89","StreamingAssets/aa/WebGL.zip.sp90","StreamingAssets/aa/WebGL.zip.sp91","StreamingAssets/aa/WebGL.zip.sp92","StreamingAssets/aa/WebGL.zip.sp93","StreamingAssets/aa/WebGL.zip.sp94","StreamingAssets/aa/WebGL.zip.sp95","StreamingAssets/aa/WebGL.zip.sp96","StreamingAssets/aa/WebGL.zip.sp97","StreamingAssets/aa/WebGL.zip.sp98","StreamingAssets/aa/WebGL.zip.sp99","StreamingAssets/aa/WebGL.zip.sp100","StreamingAssets/aa/WebGL.zip.sp101","StreamingAssets/aa/WebGL.zip.sp102","StreamingAssets/aa/WebGL.zip.sp103","StreamingAssets/aa/WebGL.zip.sp104","StreamingAssets/aa/WebGL.zip.sp105","StreamingAssets/aa/WebGL.zip.sp106","StreamingAssets/aa/WebGL.zip.sp107","StreamingAssets/aa/WebGL.zip.sp108","StreamingAssets/aa/WebGL.zip.sp109","StreamingAssets/aa/WebGL.zip.sp110"],"b":2083139638,"m":"application/octet-stream","v":1}]};</script>
+<script>(function () {
+  var M = window.SURD_GAME;
+  var table = M && M.split;
+  if (!table || !table.length) return;
+  var base = String(M.base || '').replace(/\/?$/, '/');
+  var byPath = {};
+  var i;
+  for (i = 0; i < table.length; i++) byPath[table[i].p] = table[i];
+  var blobs = {};
+  var urlOf = {};
+  var pending = {};
+  function partUrls(e) {
+    var out = [];
+    for (var k = 0; k < e.u.length; k++) out.push(base + e.u[k]);
+    return out;
+  }
+  function match(url) {
+    if (typeof url !== 'string') {
+      if (!url || typeof url.url !== 'string') return null;
+      url = url.url;
+    }
+    var q = url.split('#')[0].split('?')[0];
+    try { q = decodeURIComponent(q); } catch (e) {}
+    q = q.replace(/^\.\//, '');
+    try {
+      var ext = M && M.ext;
+      if (ext && ext[q]) q = ext[q];
+    } catch (e) {}
+    var hit = exact(q);
+    return hit || virtualPart(q);
+  }
+  function exact(q) {
+    for (var p in byPath) {
+      if (q === p || q === base + p) return byPath[p];
+      if (q.length > p.length && q.slice(-(p.length + 1)) === '/' + p) return byPath[p];
+    }
+    return null;
+  }
+  var firstIdx = {};
+  var EMPTY = { p: ' empty', u: [], b: 0, m: 'application/octet-stream' };
+  function virtualPart(q) {
+    var m = q.match(/^(.*)\.part(\d+)$/i);
+    if (!m) return null;
+    var e = exact(m[1]);
+    if (!e || !e.v) return null;
+    var n = +m[2];
+    if (!(e.p in firstIdx)) firstIdx[e.p] = n;
+    return n === firstIdx[e.p] ? e : EMPTY;
+  }
+  function finish(e, parts) {
+    var blob = new Blob(parts, { type: e.m || 'application/octet-stream' });
+    if (e.b && blob.size !== e.b) throw new Error('surd: ' + e.p + ' reassembled to ' + blob.size + ', expected ' + e.b);
+    var u = URL.createObjectURL(blob);
+    blobs[u] = blob; urlOf[e.p] = u;
+    return u;
+  }
+  function mirrorUrl(url) {
+    var m = /^https:\/\/cdn\.jsdelivr\.net\/gh\/([^/]+)\/([^@/]+)@([^/]+)\/(.*)$/.exec(url || '');
+    return m ? 'https://raw.githubusercontent.com/' + m[1] + '/' + m[2] + '/' + m[3] + '/' + m[4] : null;
+  }
+  var TRANSIENT = { 403: 1, 408: 1, 425: 1, 429: 1, 500: 1, 502: 1, 503: 1, 504: 1, 522: 1 };
+  function fetchPart(url, attempt) {
+    attempt = attempt || 1;
+    var alt = mirrorUrl(url);
+    var target = (alt && attempt % 2 === 0) ? alt : url;
+    return nativeFetch(target).then(function (r) {
+      if (r.ok) return r.blob();
+      var e = new Error('surd: ' + r.status + ' on ' + target);
+      e.status = r.status;
+      throw e;
+    })['catch'](function (err) {
+      var retryable = !err.status || TRANSIENT[err.status];
+      if (attempt >= 4 || (!retryable && attempt > 1)) throw err;
+      return new Promise(function (r) { setTimeout(r, Math.min(8000, 400 * attempt * attempt)); })
+        .then(function () { return fetchPart(url, attempt + 1); });
+    });
+  }
+  function assemble(e) {
+    if (urlOf[e.p]) return Promise.resolve(urlOf[e.p]);
+    if (pending[e.p]) return pending[e.p];
+    var urls = partUrls(e);
+    var got = new Array(urls.length);
+    var next = 0;
+    function lane() {
+      if (next >= urls.length) return Promise.resolve();
+      var n = next++;
+      return fetchPart(urls[n]).then(function (b) { got[n] = b; return lane(); });
+    }
+    var lanes = [];
+    for (var k = 0; k < Math.min(6, urls.length); k++) lanes.push(lane());
+    var p = Promise.all(lanes).then(function () { return finish(e, got); });
+    pending[e.p] = p;
+    return p;
+  }
+  function syncBytes(url) {
+    var x = new NativeXHR();
+    nativeOpen.call(x, 'GET', url, false);
+    if (x.overrideMimeType) x.overrideMimeType('text/plain; charset=x-user-defined');
+    nativeSend.call(x, null);
+    if (x.status && x.status !== 200 && x.status !== 0) throw new Error('surd: ' + x.status + ' on ' + url);
+    var s = x.responseText, n = s.length, a = new Uint8Array(n);
+    for (var k = 0; k < n; k++) a[k] = s.charCodeAt(k) & 0xff;
+    return a;
+  }
+  function assembleSync(e) {
+    if (urlOf[e.p]) return urlOf[e.p];
+    var urls = partUrls(e), got = [];
+    for (var k = 0; k < urls.length; k++) got.push(syncBytes(urls[k]));
+    var u = finish(e, got);
+    pending[e.p] = Promise.resolve(u);
+    return u;
+  }
+  var nativeFetch = window.fetch && window.fetch.bind(window);
+  if (nativeFetch) {
+    window.fetch = function (input, init) {
+      var e = match(typeof input === 'string' ? input : input);
+      if (!e) return nativeFetch(input, init);
+      if (init && init.method && String(init.method).toUpperCase() === 'HEAD') {
+        return Promise.resolve(new Response(null, { status: 200, headers: { 'Content-Length': String(e.b || 0) } }));
+      }
+      return assemble(e).then(function (u) { return nativeFetch(u); });
+    };
+  }
+  var NativeXHR = window.XMLHttpRequest;
+  var XP = NativeXHR.prototype;
+  var nativeOpen = XP.open, nativeSend = XP.send;
+  XP.open = function (method, url, async) {
+    var e = match(url);
+    this.__surdSplit = e || null;
+    if (e) {
+      this.__surdArgs = Array.prototype.slice.call(arguments);
+      this.__surdSync = async === false;
+      if (this.__surdSync) {
+        try { return nativeOpen.apply(this, [method, assembleSync(e), false].concat(Array.prototype.slice.call(arguments, 3))); }
+        catch (err) { this.__surdSplit = null; }
+      }
+    }
+    return nativeOpen.apply(this, arguments);
+  };
+  XP.send = function (body) {
+    var e = this.__surdSplit;
+    if (!e || this.__surdSync) return nativeSend.apply(this, arguments);
+    var self = this, args = this.__surdArgs;
+    assemble(e).then(function (u) {
+      args[1] = u;
+      nativeOpen.apply(self, args);
+      nativeSend.call(self, body);
+    })['catch'](function (err) {
+      try { if (self.onerror) self.onerror({ target: self, message: String(err && err.message || err) }); } catch (x) {}
+    });
+  };
+  function script(path) {
+    var e = byPath[path] || match(path);
+    if (!e) { throw new Error('surd: no split entry for script ' + path); }
+    var urls = partUrls(e), chunks = [], total = 0, k;
+    for (k = 0; k < urls.length; k++) { chunks.push(syncBytes(urls[k])); total += chunks[k].length; }
+    var all = new Uint8Array(total), at = 0;
+    for (k = 0; k < chunks.length; k++) { all.set(chunks[k], at); at += chunks[k].length; }
+    if (e.b && total !== e.b) throw new Error('surd: ' + e.p + ' reassembled to ' + total + ', expected ' + e.b);
+    var code = new TextDecoder('utf-8').decode(all);
+    (0, eval)(code + '\n//# sourceURL=' + base + e.p);
+  }
+  window.SURD_SPLIT = { blobs: blobs, match: match, assemble: assemble, script: script };
+  var pf = [];
+  for (i = 0; i < table.length; i++) if (table[i].pf) pf.push(table[i]);
+  if (pf.length) {
+    var st = { total: pf.length, done: 0, bytes: 0, doneBytes: 0, failed: 0 };
+    for (i = 0; i < pf.length; i++) st.bytes += pf[i].b || 0;
+    window.SURD_PREFETCH = st;
+    var next = 0, LANES = 2;
+    var pump = function () {
+      if (next >= pf.length) return;
+      var e = pf[next++];
+      assemble(e)['catch'](function () { st.failed++; })
+        .then(function () { st.done++; st.doneBytes += e.b || 0; pump(); });
+    };
+    for (i = 0; i < LANES && i < pf.length; i++) pump();
+  }
+})();</script>
+<script crossorigin="anonymous" src="https://cdn.jsdelivr.net/gh/playsurd/surd-runtime@main/v41e88dd3b6/runtime.js"></script>
 </body></html>
